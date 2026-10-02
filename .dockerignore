@@ -1,0 +1,6 @@
+**/.cache
+**/__pycache__
+**/.git
+tools/
+mc2-samples*
+*.zip

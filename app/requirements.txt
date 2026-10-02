@@ -1,0 +1,26 @@
+# Installed with --no-deps by the Dockerfile: anything that depends on torch
+# can pull a CUDA build over the ROCm one in the base image. Deps of
+# transformers that are NOT already in the base image are listed explicitly.
+transformers>=4.57
+tokenizers
+safetensors
+regex
+requests
+huggingface-hub
+filelock
+tqdm
+pyyaml
+packaging
+typing-extensions
+numpy
+httpx2>=2,<3
+httpcore2==2.0.0
+anyio
+certifi
+idna
+h11
+truststore
+hf-xet
+fsspec
+click>=8.4.2,<9
+tomli
